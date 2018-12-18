@@ -3,11 +3,11 @@ from textblob import TextBlob
 
 searchVal = 'WHAT YOU WANT TO SEARCH FOR'
 
-consumer_key = 'Qge2Aq6I6vTTL6dbgtd9lCAoK'
-consumer_secret = 'l9f9VzZnBSym0Pzfy3mRLs7pJ0M1YM6FeDzTCOgo15qMgdrG2y'
+consumer_key = ''
+consumer_secret = ''
 
-access_token = '961780142522683392-Yy9alvvvoXPQjJSIVhaUPGfWoWlPwg3'
-access_token_secret = '28EsZcWmNaV9fFVYGDqHBnepWYb76eEiErY7Z95N7rWCD'
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
